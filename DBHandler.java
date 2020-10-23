@@ -11,8 +11,8 @@ public class DBHandler {
 	    String JDBC_DRIVER = "com.mysql.jdbc.Driver";
 	    String DB_URL = "mysql://localhost:3306/rainfallreport";
 	    //  Database credentials
-       String USER = "root";
-       String PASS = "omnitorisk";
+       String USER =
+       String PASS = 
        Connection conn = null;
        Statement stmt = null;
        try{
